@@ -16,6 +16,13 @@ body{
     padding: 0px 05px;
     position: absolute;
 }
+@keyframes slogan {
+    0% { color: white}
+    100% {color: rgba(228, 38, 38, 0.596);}
+}
+#slogan h1:hover{
+    animation: slogan 0.5s;
+}
 #nav {
     width: 1220px;
     height: 70px;
